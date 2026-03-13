@@ -21,7 +21,7 @@ mensagem = st.text_area(
     placeholder="Cole seu poema ou texto gigante aqui..."
 )
 
-def dividir_texto_em_blocos(texto, limite_caracteres=500):
+def dividir_texto_em_blocos(texto, limite_caracteres=1500):
     """
     Divide o texto em blocos menores respeitando as quebras de linha,
     para não cortar as palavras no meio.
